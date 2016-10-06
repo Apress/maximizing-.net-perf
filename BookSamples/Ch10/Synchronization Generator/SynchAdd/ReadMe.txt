@@ -1,0 +1,3 @@
+1.  To install the add-in, first compile the project, whcih will create and register the DLL.  Modify "RegSettings.reg" to reflect your install path.  Then run the "RegSettings.reg" file to add the required registry keys.  The first time the add-in is launched, it will add a command on the Tools menu.  Choose Tools|Customize to move the command wherever you like.
+
+2.  To remove the add-in, close VS.NET, unregister the DLL using regasm, and re-start VS.NET.  You will be informed that the SynchAdd class is not registered.  Click 'Yes' to remove the VS.NET registry settings associated with the add-in.

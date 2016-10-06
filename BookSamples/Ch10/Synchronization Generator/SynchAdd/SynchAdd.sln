@@ -1,0 +1,25 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SynchAdd", "SynchAdd.csproj", "{CC3424C9-E5C2-49C9-B3CC-D43F3759BAF9}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SynchAddSetup", "SynchAddSetup\SynchAddSetup.vdproj", "{1BBF8529-6239-41A9-8CF2-054723809207}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{CC3424C9-E5C2-49C9-B3CC-D43F3759BAF9}.Debug.ActiveCfg = Debug|.NET
+		{CC3424C9-E5C2-49C9-B3CC-D43F3759BAF9}.Debug.Build.0 = Debug|.NET
+		{CC3424C9-E5C2-49C9-B3CC-D43F3759BAF9}.Release.ActiveCfg = Release|.NET
+		{CC3424C9-E5C2-49C9-B3CC-D43F3759BAF9}.Release.Build.0 = Release|.NET
+		{1BBF8529-6239-41A9-8CF2-054723809207}.Debug.ActiveCfg = Debug
+		{1BBF8529-6239-41A9-8CF2-054723809207}.Release.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

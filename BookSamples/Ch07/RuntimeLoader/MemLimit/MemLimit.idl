@@ -1,0 +1,38 @@
+// MemLimit.idl : IDL source for MemLimit
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (MemLimit.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(9D9A448E-E056-4BFE-9D3B-00019D176F2D),
+	dual,
+	nonextensible,
+	helpstring("IMemControl Interface"),
+	pointer_default(unique)
+]
+interface IMemControl : IDispatch{
+	[propget, id(1), helpstring("property MaxMem")] HRESULT MaxMem([out, retval] LONG* pVal);
+	[propput, id(1), helpstring("property MaxMem")] HRESULT MaxMem([in] LONG newVal);
+};
+[
+	uuid(47825DDE-E033-44CA-999F-64D82943455C),
+	version(1.0),
+	helpstring("MemLimit 1.0 Type Library")
+]
+library MemLimitLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(D86C714B-7C62-44F3-ABF5-F28D8D1A037A),
+		helpstring("MemControl Class")
+	]
+	coclass MemControl
+	{
+		[default] interface IMemControl;
+	};
+};

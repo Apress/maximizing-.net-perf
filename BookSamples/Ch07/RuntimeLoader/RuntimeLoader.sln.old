@@ -1,0 +1,28 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MemLimit", "MemLimit\MemLimit.vcproj", "{67387D70-22F7-4D1F-8691-E1365F870F75}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RuntimeLoader", "RuntimeLoader.vcproj", "{6B73CC43-3CED-4CE0-933D-731AA1026B08}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+		{6B73CC43-3CED-4CE0-933D-731AA1026B08}.0 = {67387D70-22F7-4D1F-8691-E1365F870F75}
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{67387D70-22F7-4D1F-8691-E1365F870F75}.Debug.ActiveCfg = Debug|Win32
+		{67387D70-22F7-4D1F-8691-E1365F870F75}.Debug.Build.0 = Debug|Win32
+		{67387D70-22F7-4D1F-8691-E1365F870F75}.Release.ActiveCfg = Release|Win32
+		{67387D70-22F7-4D1F-8691-E1365F870F75}.Release.Build.0 = Release|Win32
+		{6B73CC43-3CED-4CE0-933D-731AA1026B08}.Debug.ActiveCfg = Debug|Win32
+		{6B73CC43-3CED-4CE0-933D-731AA1026B08}.Debug.Build.0 = Debug|Win32
+		{6B73CC43-3CED-4CE0-933D-731AA1026B08}.Release.ActiveCfg = Release|Win32
+		{6B73CC43-3CED-4CE0-933D-731AA1026B08}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,9 @@
+; MemLimit.def : Declares the module parameters.
+
+LIBRARY      "MemLimit.DLL"
+
+EXPORTS
+	DllCanUnloadNow		PRIVATE
+	DllGetClassObject	PRIVATE
+	DllRegisterServer	PRIVATE
+	DllUnregisterServer	PRIVATE

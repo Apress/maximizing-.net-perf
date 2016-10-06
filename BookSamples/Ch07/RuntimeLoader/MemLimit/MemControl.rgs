@@ -1,0 +1,27 @@
+HKCR
+{
+	MemLimit.MemControl.1 = s 'MemControl Class'
+	{
+		CLSID = s '{D86C714B-7C62-44F3-ABF5-F28D8D1A037A}'
+	}
+	MemLimit.MemControl = s 'MemControl Class'
+	{
+		CLSID = s '{D86C714B-7C62-44F3-ABF5-F28D8D1A037A}'
+		CurVer = s 'MemLimit.MemControl.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {D86C714B-7C62-44F3-ABF5-F28D8D1A037A} = s 'MemControl Class'
+		{
+			ProgID = s 'MemLimit.MemControl.1'
+			VersionIndependentProgID = s 'MemLimit.MemControl'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			val AppID = s '%APPID%'
+			'TypeLib' = s '{47825DDE-E033-44CA-999F-64D82943455C}'
+		}
+	}
+}

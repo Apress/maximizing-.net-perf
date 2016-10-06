@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemotingPerfServer", "RemotingPerfServer.csproj", "{65834183-612D-44FE-841A-D605B5A3E50F}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{65834183-612D-44FE-841A-D605B5A3E50F}.Debug.ActiveCfg = Debug|.NET
+		{65834183-612D-44FE-841A-D605B5A3E50F}.Debug.Build.0 = Debug|.NET
+		{65834183-612D-44FE-841A-D605B5A3E50F}.Release.ActiveCfg = Release|.NET
+		{65834183-612D-44FE-841A-D605B5A3E50F}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,26 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "InteropSafeArray", "InteropSafeArray.vcproj", "{C391CA3D-4671-4284-AC6B-6D87A82FE6E1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "InteropSafeArrayPS", "InteropSafeArrayPS.vcproj", "{26CFA3F0-CD19-468B-888C-A91A14A43E51}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+		{26CFA3F0-CD19-468B-888C-A91A14A43E51}.0 = {C391CA3D-4671-4284-AC6B-6D87A82FE6E1}
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{C391CA3D-4671-4284-AC6B-6D87A82FE6E1}.Debug.ActiveCfg = Debug|Win32
+		{C391CA3D-4671-4284-AC6B-6D87A82FE6E1}.Debug.Build.0 = Debug|Win32
+		{C391CA3D-4671-4284-AC6B-6D87A82FE6E1}.Release.ActiveCfg = Release|Win32
+		{C391CA3D-4671-4284-AC6B-6D87A82FE6E1}.Release.Build.0 = Release|Win32
+		{26CFA3F0-CD19-468B-888C-A91A14A43E51}.Debug.ActiveCfg = Debug|Win32
+		{26CFA3F0-CD19-468B-888C-A91A14A43E51}.Release.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

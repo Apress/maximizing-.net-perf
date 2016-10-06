@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseRegExFromAssm", "UseRegExFromAssm.csproj", "{8B6C12DD-8F27-42EA-B39C-6463F9D3E3BA}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{8B6C12DD-8F27-42EA-B39C-6463F9D3E3BA}.Debug.ActiveCfg = Debug|.NET
+		{8B6C12DD-8F27-42EA-B39C-6463F9D3E3BA}.Debug.Build.0 = Debug|.NET
+		{8B6C12DD-8F27-42EA-B39C-6463F9D3E3BA}.Release.ActiveCfg = Release|.NET
+		{8B6C12DD-8F27-42EA-B39C-6463F9D3E3BA}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

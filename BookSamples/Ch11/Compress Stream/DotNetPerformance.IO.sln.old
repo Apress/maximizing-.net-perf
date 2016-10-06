@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetPerformance.IO", "DotNetPerformance.IO.csproj", "{24C8EF1B-0DA2-437D-93B5-2D00517ACDBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{337B210A-8C07-4010-97B8-A405AFFC114D}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{24C8EF1B-0DA2-437D-93B5-2D00517ACDBA}.Debug.ActiveCfg = Debug|.NET
+		{24C8EF1B-0DA2-437D-93B5-2D00517ACDBA}.Debug.Build.0 = Debug|.NET
+		{24C8EF1B-0DA2-437D-93B5-2D00517ACDBA}.Release.ActiveCfg = Release|.NET
+		{24C8EF1B-0DA2-437D-93B5-2D00517ACDBA}.Release.Build.0 = Release|.NET
+		{337B210A-8C07-4010-97B8-A405AFFC114D}.Debug.ActiveCfg = Debug|.NET
+		{337B210A-8C07-4010-97B8-A405AFFC114D}.Debug.Build.0 = Debug|.NET
+		{337B210A-8C07-4010-97B8-A405AFFC114D}.Release.ActiveCfg = Release|.NET
+		{337B210A-8C07-4010-97B8-A405AFFC114D}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

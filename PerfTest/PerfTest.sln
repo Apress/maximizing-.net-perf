@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerfTest", "PerfTest.csproj", "{69470CF2-E70E-4391-AE8F-CFDEA24EFBC6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8940E03B-9BB9-4E87-90F3-50DCE07893D5} = {8940E03B-9BB9-4E87-90F3-50DCE07893D5}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestHarness", "..\TestHarness\TestHarness.csproj", "{8940E03B-9BB9-4E87-90F3-50DCE07893D5}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{69470CF2-E70E-4391-AE8F-CFDEA24EFBC6}.Debug.ActiveCfg = Debug|.NET
+		{69470CF2-E70E-4391-AE8F-CFDEA24EFBC6}.Debug.Build.0 = Debug|.NET
+		{69470CF2-E70E-4391-AE8F-CFDEA24EFBC6}.Release.ActiveCfg = Release|.NET
+		{69470CF2-E70E-4391-AE8F-CFDEA24EFBC6}.Release.Build.0 = Release|.NET
+		{8940E03B-9BB9-4E87-90F3-50DCE07893D5}.Debug.ActiveCfg = Debug|.NET
+		{8940E03B-9BB9-4E87-90F3-50DCE07893D5}.Debug.Build.0 = Debug|.NET
+		{8940E03B-9BB9-4E87-90F3-50DCE07893D5}.Release.ActiveCfg = Release|.NET
+		{8940E03B-9BB9-4E87-90F3-50DCE07893D5}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,28 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "InteropComTest", "InteropComTest.vcproj", "{E1FC70BA-2D11-4D45-967A-9FC19512040A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "InteropComTestPS", "InteropComTestPS.vcproj", "{58249188-FC6E-47BC-870B-905D470390E2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E1FC70BA-2D11-4D45-967A-9FC19512040A} = {E1FC70BA-2D11-4D45-967A-9FC19512040A}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{E1FC70BA-2D11-4D45-967A-9FC19512040A}.Debug.ActiveCfg = Debug|Win32
+		{E1FC70BA-2D11-4D45-967A-9FC19512040A}.Debug.Build.0 = Debug|Win32
+		{E1FC70BA-2D11-4D45-967A-9FC19512040A}.Release.ActiveCfg = Release|Win32
+		{E1FC70BA-2D11-4D45-967A-9FC19512040A}.Release.Build.0 = Release|Win32
+		{58249188-FC6E-47BC-870B-905D470390E2}.Debug.ActiveCfg = Debug|Win32
+		{58249188-FC6E-47BC-870B-905D470390E2}.Release.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

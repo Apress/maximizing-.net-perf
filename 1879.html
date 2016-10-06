@@ -1,0 +1,94 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 11 (filtered)">
+<title>Maximizing </title>
+<style>
+<!--
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+h1
+	{margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	page-break-after:avoid;
+	font-size:16.0pt;
+	font-family:Arial;}
+h2
+	{margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:Arial;
+	font-style:italic;}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-AU>
+
+<div class=Section1>
+
+<h1><span lang=EN-US>Maximizing .NET Performance Errata</span></h1>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<h2><span lang=EN-US>Code Samples</span></h2>
+
+<p class=MsoNormal><span lang=EN-US>The redist folder is missing from the
+source code zip file on the website - it can be found here: www.dotnetperformance.com/redist.zip</span></p>
+
+<h2><span lang=EN-US>Chapter 2, page 9</span></h2>
+
+<p class=MsoNormal><span lang=EN-US>“</span>In contrast, black box
+investigation ignores implementation, and instead relies on execution timing
+data to access performance.”</p>
+
+<p class=MsoNormal>Should be</p>
+
+<p class=MsoNormal>“In contrast, black box investigation ignores
+implementation, and instead relies on execution timing data to <b>assess</b>
+performance.”</p>
+
+<h2><span lang=EN-US>Chapter 3, page 44</span></h2>
+
+<p class=MsoNormal><span lang=EN-US>“</span>Value types are heap allocated when
+declared as local variables,”</p>
+
+<p class=MsoNormal>should be:</p>
+
+<p class=MsoNormal><span lang=EN-US>“</span>Value types are <b>stack</b>
+allocated when declared as local variables,”</p>
+
+<h2><span lang=EN-US>Chap 5. page 65</span></h2>
+
+<p class=MsoNormal><span lang=EN-US>int[] arrInline = new int[] {0, 1, 2};</span></p>
+
+<p class=MsoNormal><span lang=EN-US>should be</span></p>
+
+<p class=MsoNormal><span lang=EN-US>int[] arrInline = new int[] {0, 1, 2, 3};</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>If any array has less than 4 elements, the
+array is initialized inline.</span></p>
+
+</div>
+
+</body>
+
+</html>

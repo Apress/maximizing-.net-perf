@@ -1,0 +1,11 @@
+HKCR
+{
+	NoRemove AppID
+	{
+		'%APPID%' = s 'MemLimit'
+		'MemLimit.DLL'
+		{
+			val AppID = s '%APPID%'
+		}
+	}
+}

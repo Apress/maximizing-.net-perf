@@ -1,0 +1,11 @@
+LIBRARY	InteropDllTest
+EXPORTS
+	ZeroParams   @1
+	OneBlittableParam @2
+	ConstantStringParam @3
+	ChangeableStringParam @4
+	ConstArray @5
+	ChangeableArray @6
+	ConstantStringParamAnsi @7
+	CharacterSetTestA @8
+	CharacterSetTestW @9
